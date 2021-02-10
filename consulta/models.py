@@ -5,6 +5,7 @@ class Consulta(models.Model):
     horario = models.DateTimeField()
     dia =models.DateTimeField()
 
+
     def __str__(self):
         return self.especialidade
 
