@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+    <pattern>APRESENTAÇÃO</pattern>
+    <template>
+        OI MEU NOME É DANIEL<delay>2<delay>
+        <split/>
+        SOU UM ASSISTENTE VIRTUAL FEITO PARA AUXILIAR  O IDOSO NA GESTAO DE MEDICAMENTOS
+        <srai>OPÇÕES</srai>
+    </template>
+</category>
+<category>
+    <pattern>* * DANIEL</pattern>
+    <template>
+        <star index="1"/> <star index="2"/>
+        <split/> 
+        EU POSSO AJUDAR A REALIZAR ALGUMAS TAREFAS.<delay>2</delay>
+        <split/>
+        PARA SABER SOBRE NO QUE EU POSSO TE AUXILIAR, DIGA:
+        <split/>
+         OPÇÕES
+    </template>  
+</category>
+<category>
+    <pattern>BOM DIA</pattern>
+    <template>
+        <srai>* * DANIEL</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>BOA TARDE</pattern>
+    <template>
+        <srai>* * DANIEL</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>BOA NOITE</pattern>
+    <template>
+        <srai>* * DANIEL</srai>
+    </template>
+</category>
+
+<category>
+    <that>OPÇÕES</that>
+    <pattern>OPÇÕES</pattern>
+    <template>
+       DIGA 2 PARA CADASTRO DE MEDICAMENTO<delay>2</delay>
+       <split/>
+       DIGA 3 PARA CADASTRO DE CONSULTA<delay>2</delay>
+       <split/>
+       DIGA 4 PARA CADASTRO DE DADOS PESSOAIS<delay>2</delay>
+    </template>
+</category>
+<category>
+    <pattern>*</pattern>
+    <template>
+       NÃO COMPREENDE, VOCÊ PODE REPETIR
+    </template>
+</category>
+
+</aiml>
+ 

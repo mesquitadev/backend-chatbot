@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'core',
     'medicamentos',
     'consulta',
+    'util',
     'rest_framework',
 ]
 
