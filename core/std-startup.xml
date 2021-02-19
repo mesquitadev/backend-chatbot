@@ -4,6 +4,7 @@
     <pattern>LOAD AIML B</pattern>
     <template>
         <learn>aiml/basic_chat.aiml</learn>
+        
     </template>
 </category>
 </aiml>

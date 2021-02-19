@@ -20,12 +20,10 @@ from rest_framework import routers
 from core.api.viewsets import PacienteViewSet
 from consulta.api.viewsets import ConsultasViewSet
 from medicamentos.api.viewsets import MedicamentosViewSet
-from core.util import brain
 router = routers.DefaultRouter()
 router.register(r'paciente', PacienteViewSet )
 router.register(r'consulta', ConsultasViewSet )
 router.register(r'medicamentos', MedicamentosViewSet)
-router.register(r'brain', brain)
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),

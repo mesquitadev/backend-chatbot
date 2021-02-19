@@ -4,4 +4,4 @@ from core.models import Paciente
 class PacienteSerializer(ModelSerializer):
     class Meta:
         model = Paciente
-        fields = ['id', 'nome', 'idade', 'morbidades']
+        fields = ['nome', 'idade', 'morbidades','Consulta', 'Medicamento' ]

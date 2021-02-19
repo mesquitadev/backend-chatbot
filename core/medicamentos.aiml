@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>DIAZEPAM</pattern>
+	    <template>
+	        É indicado para alivio sintomatico da ainsiedade, tensão e outra queisa somaticas ou psicologicas 
+	        associadas com sindrome de ansiedade.
+	    </template>
+    </category>
+    <category>
+        <pattern>BROMAZEPAN GOTAS</pattern>
+        <template>
+            É indicado para alivio sintomatico da ainsiedade, tensão e outra queisa somaticas ou psicologicas 
+	        associadas com sindrome de ansiedade.
+	        A dose média para o tratamento de paciente ambulatorias: 1,5 a 3 mg até 3 vezes ao dia
+        </template>
+    </category>
+    <category>
+        <pattern>CLONAZEPAN</pattern>
+        <template>
+            o clonazepam é indicado para tratar crises epiléticas e espasmos infantis. 
+            Sindrome de West <delay>2</delay>
+            
+            A Síndrome de West é uma doença rara caracterizada por crises epiléticas frequentes, 
+            sendo mais comum entre os meninos e que começa a se manifestar durante o primeiro ano de vida do bebê. 
+            Geralmente as primeiras crises acontecem entre os 3 e 5 meses de
+            vida, embora o diagnóstico possa ser feito até os 12 meses.<delay>2</delay>
+            
+            Dose inicial: não execer 1,5 mg ao dia, dividida em três doses. aumentar a criterio do médico
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ATORVASTALINA CÁLCICA</pattern>
+        <template>
+            É USADO PARA PREVENÇÃO DE COMPLICAÇÕES CARDIOVASCULARES, VASOS SANGUINEOS E CORAÇÃO
+            EM PACIENTES SEM DOENÇAS DO CORAÇÃO MAS COM MULTIPLOS FATORES DE RISCO
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DEXAMETASONA</pattern>
+        <template>
+            A DEXAMETASONA É INDICADO PARA O TRATAMENTO DE SINTOMAS DE VÁRIOS TIPOS DE DOENÇAS, INCLUINDO 
+            DISTÚBIOS EUMATICOS OCULARES, GLANDULARES, PULMONARES E SANGUÍNEOS E GASTRINTESTINAIS
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CAPTOPRIL</pattern>
+        <template>
+            O CAPTOPPRIL É INDICADO PARA TRATAR PACIENTE COM HIPERTENSÃO, INSUFICIENCIA CARDIACA CONGESTIVA,
+            USADO COM OUTROS MEDICAMENTOS DIURÉTICOS E DIGITÁLICOS
+            INFARTO DO MIOCÁRDIO, NEFROPATIA DIABÉTICA- DOENCA CAUSDA POR DIABETES.
+            
+        </template>
+    </category>
+    <category>
+        <pattern>ENALAPRIL</pattern>
+        <template>
+            O ENALAPRIL É INDICADO PARA O CONTROLE DA PRESSÃO ARTERIAL ALTA OU MELHORA DO DESEMPENHO DO  CORAÇAO
+            PARA PACIÊTES COM INSUFICIÊNCIA CARDÍACA. O ENALAPRIL TAMBÉM É USADO PRA PREVENÇÃO DE INSUFICIENCIA 
+            CARDIACA SINTOMATICA 
+        </template>
+    </category>
+    <category>
+        <pattern>GLIMEPIRIDA</pattern>
+        <template>
+            GLIMEPERIDA É INDICADO PARA TRATMENTO ORAL DE DIABETES MELLITUS NÃO INSULO-DEPENDENDE  <delay>2</delay>
+            QUANDOS OS NÍVEIS DE GLICOSE NÃO PODEM SER ADEQUADAMENTE CONTROLADOS PO MEIO DE DIETA ALIMENTAR,
+            EXERCICIOS FISICOS E REDUÇAÕ DE PESO.
+            GLIMEPIRIDA PODE SER ASSOCIADO A OUTRO ANTIDIABÉTICOS ORAIS QUE NÃO ESTIMULAM A A SECREÇAÕ DE INSULINA COMO 
+            A METFORMINA.
+            
+            A GLIMEPIRIDA PODE CAUSAR  cefaleia, náuseas, vômitos, excesso de apetite, fadiga, 
+            anormalidades do sono, inquietação, agressividade, depressão, confusão, alterações na fala, 
+            afasia, alterações visuais, tremor, paresias, distúrbios sensoriais, delírio, tontura, sensação de abandono, 
+            perda do autocontrole, convulsões, sonolência, podendo evoluir para coma, dificuldade respiratória e bradicardia.
+            
+        </template>
+    </category>
+    
+    <category>
+        <pattern>METFORMINA</pattern>
+        <template>
+            O cloridrato de metformina é um medicamento indicado para o tratamento da diabetes tipo 2, 
+            isoladamente ou associado a outros antidiabéticos orais e também pode ser utilizado para o 
+            tratamento da diabetes tipo 1, como complemento da insulina.
+            
+            MALES CAUSADOS PELA METFORMINA<delay>2</delay>
+            
+            Distúrbios gastrointestinais, Náusea, vômito, diarreia, dor abdominal e inapetência. 
+            Estas reações ocorrem mais frequentemente durante o início do tratamento e regridem 
+            espontaneamente na maioria das vezes. Para prevení-las, recomenda-se que o produto seja 
+            administrado em 2 ou 3 tomadas diárias, durante ou após as refeições.
+            Um aumento gradual da dose também pode melhorar a tolerabilidade gastrointestin
+        </template>
+    </category>
+    
+    <category>
+        <pattern>AZITROMICINA</pattern>
+        <template>
+            Azitromicina Di-Hidratada é indicado em infecções causadas por organismos suscetíveis, 
+            em infecções do trato respiratório inferior incluindo bronquite e pneumonia,
+            em infecções da pele e tecidos moles, em otite média aguda e infecções do trato 
+            respiratório superior incluindo sinusite e faringite/tonsilite
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DONEPEZILA</pattern>
+        <template>
+            Cloridrato de Donepezila é indicado para o tratamento sintomático da demência de Alzheimer de 
+            intensidade leve, moderadamente grave e grave. O diagnóstico da demência de Alzheimer deve 
+            ser realizado de acordo com os critérios científicos aceitos, como DSM IV, ICD10.
+        </template>
+    </category>
+    <category>
+        <pattern>RIVASTIGAMINA</pattern>
+        <template>
+            Tratamento de pacientes com demência leve a moderadamente grave do tipo Alzheimer, 
+            também conhecida como doença de Alzheimer provável ou doença de Alzheimer.
+             Tratamento de pacientes com demência leve a moderadamente grave associada à doença de Parkinson
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SULFATO DE GLICOSAMINA</pattern>
+        <template>
+            Sulfato de Glicosamina + Sulfato de Condroitina é indicado para osteoartrite, 
+            osteoartrose ou artrose em todas as suas manifestações.
+        </template>
+    </category>
+    <category>
+        <pattern>IBUPROFENO</pattern>
+        <template>
+            Ibuprofeno está indicado em todos os processos reumáticos (artrite reumatoide (AR), 
+            osteoartrite (OA), reumatismo articular) e nos traumas do sistema musculoesquelético, 
+            quando estiverem presentes componentes inflamatórios e dolorosos.
+            Ibuprofeno está indicado ainda no alívio da dor após procedimentos cirúrgicos em Odontologia,
+            Ginecologia, Ortopedia, Traumatologia e Otorrinolaringologia
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CATAFLAM</pattern>
+        <template>
+            Lesões musculares, articulares (por exemplo: entorses, distensões, contusões) ou tendinites;
+            Dor de osteoartrite.
+        </template>
+    </category>
+    <category>
+        <pattern>ALEDRONATO</pattern>
+        <template>
+            O alendronato de sódio é um composto que atua como um potente inibidor específico da reabsorção óssea.
+            Este medicamento pertence à classe de medicamentos não hormonais chamados bisfosfonatos, 
+            que ajudam na reconstituição dos ossos e faz com que os ossos tenham menos propensão a fraturas.
+        </template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <template>
+            <link>
+                <text>Click aqui para consulta</text>
+                <url>https://www.bulario.com/busca.php?q=<star/></url>
+            </link>
+        </template>
+    </category>
+</aiml>
